@@ -1,3 +1,8 @@
+/**
+ * [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+ * Returns "(123) 456-7890"
+ */
+
 function createPhoneNumber(numbers){
   const ddd = numero.slice(0, 3).join('');
   const number1 = numero.slice(3, 6).join('');
